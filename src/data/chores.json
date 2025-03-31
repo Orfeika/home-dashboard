@@ -1,0 +1,89 @@
+{
+	"householdChores": [
+		{
+			"chore": "Empty Dishwasher",
+			"frequency": "Daily",
+			"notes": "Ensure no cat hair or food residue remains on dishes."
+		},
+		{
+			"chore": "Load Dishwasher",
+			"frequency": "Daily",
+			"notes": "Rinse dishes to remove food and cat hair before loading."
+		},
+		{
+			"chore": "Vacuum Living Room",
+			"frequency": "Daily",
+			"notes": "Pay special attention to areas where cats shed the most. Use a vacuum with a HEPA filter."
+		},
+		{
+			"chore": "Run Washing Machine",
+			"frequency": "2-3 times weekly",
+			"notes": "Check for cat hair on clothes before washing. Use a lint roller on cat-haired items."
+		},
+		{
+			"chore": "Dry Clothes",
+			"frequency": "2-3 times weekly",
+			"notes": "Clean the lint trap after every use to prevent cat hair buildup."
+		},
+		{
+			"chore": "Vacuum Bedrooms",
+			"frequency": "2-3 times weekly",
+			"notes": "Vacuum under beds and in corners where cat hair accumulates."
+		},
+		{
+			"chore": "Vacuum Hallways",
+			"frequency": "2-3 times weekly",
+			"notes": "Ensure to vacuum all hallways and common areas."
+		},
+		{
+			"chore": "Sweep/Mop Kitchen",
+			"frequency": "Daily",
+			"notes": "Clean up spilled food and cat hair immediately. Mop to remove paw prints."
+		},
+		{
+			"chore": "Clean Cat Litter Boxes",
+			"frequency": "Daily",
+			"notes": "Scoop waste and refresh litter. Dispose of waste properly to minimize odors."
+		},
+		{
+			"chore": "Wipe Down Bathroom Surfaces",
+			"frequency": "Daily",
+			"notes": "Clean countertops, sinks, and mirrors. Remove cat hair from surfaces."
+		},
+		{
+			"chore": "Clean Toilet",
+			"frequency": "Weekly",
+			"notes": "Thoroughly clean the toilet bowl and exterior."
+		},
+		{
+			"chore": "Clean Shower/Tub",
+			"frequency": "Weekly",
+			"notes": "Remove soap scum and cat hair from the shower/tub."
+		},
+		{
+			"chore": "Dust Kitchen",
+			"frequency": "Weekly",
+			"notes": "Dust all surfaces, including shelves, tables, and electronics. Remove cat hair from furniture."
+		},
+		{
+			"chore": "Dust Living Room",
+			"frequency": "Weekly",
+			"notes": "Dust all surfaces, including shelves, tables, and electronics. Remove cat hair from furniture."
+		},
+		{
+			"chore": "Dust Bedrooms",
+			"frequency": "Weekly",
+			"notes": "Dust all surfaces, including shelves, tables, and electronics. Remove cat hair from furniture."
+		},
+		{
+			"chore": "Clean Windows/Mirrors",
+			"frequency": "Bi-weekly",
+			"notes": "Remove paw prints and cat nose prints."
+		},
+		{
+			"chore": "Clean Pet Feeding Area",
+			"frequency": "2-3 times weekly",
+			"notes": "Wipe down food and water bowls, and clean any spilled food or water."
+		}
+	]
+}

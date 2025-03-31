@@ -1,3 +1,7 @@
+import data from '../data/chores.json';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faCat } from '@fortawesome/free-solid-svg-icons';
+
 const nextWeek = () => {
 	const weekLength = 7;
 	const options: Intl.DateTimeFormatOptions = {
@@ -17,17 +21,29 @@ const nextWeek = () => {
 	return week;
 };
 const week = nextWeek();
-const weekItems = week.map((day) => <th>{day}</th>);
+const weekItems = week.map((day) => <th key={day}>{day}</th>);
+const { householdChores } = data;
+const emptyWeekRow = Array(7)
+	.fill(<FontAwesomeIcon icon={faCat} />)
+	.map((day) => <td>{day}</td>);
+const chores = householdChores.map(({ chore }) => (
+	<tr>
+		<th>{chore}</th>
+		{emptyWeekRow}
+	</tr>
+));
 
 export default function Dashboard() {
-	console.log(nextWeek());
 	return (
 		<div>
 			<table>
 				<thead>
-					<th> Chores</th>
-					{weekItems}
+					<tr>
+						<th className="mr-8"> Chores</th>
+						{weekItems}
+					</tr>
 				</thead>
+				<tbody>{chores}</tbody>
 			</table>
 		</div>
 	);
